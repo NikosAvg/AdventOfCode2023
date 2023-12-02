@@ -17,9 +17,7 @@ def check_valid_game(Lines):
                 green.append(int(l[i-3:i-1]))
             elif l.startswith('blue', i):
                 blue.append(int(l[i-3:i-1]))
-        print(red,green,blue)
         power=max(red)*max(green)*max(blue)
-        print(power)
         total_power+=power
     return total_power
 
