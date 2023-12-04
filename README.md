@@ -1,4 +1,4 @@
-# AdventOfCode2023
+# Advent Of Code 2023
 Solutions For the Advent Of Code Challenge
 
 1. Day 1
