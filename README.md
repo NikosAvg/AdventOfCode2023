@@ -6,3 +6,4 @@ Solutions For the Advent Of Code Challenge
 3. Day 3 (Didn't Solve)
 4. Day 4
 5. Day 5 ( Slow Part 2 Solution)
+6. Day 6 ( Part 1: Brute Force, Part 2: Maths)
