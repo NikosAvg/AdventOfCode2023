@@ -39,7 +39,7 @@ sol2 = (-times2 - math.sqrt(times2**2 - 4*distance2))/(-2)
 lower_lim = min(sol1,sol2)
 upper_lim = max(sol1,sol2)
 
-result=len(list(range(math.ceil(lower_lim),math.ceil(upper_lim))))
+result= math.ceil(upper_lim) - math.ceil(lower_lim)
 
 print(f'Day 6, Part 2 Result = {result}')
 
