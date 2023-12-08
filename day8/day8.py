@@ -1,17 +1,13 @@
 import re,math
+
+####### Part 1 ####################
 file1 = open('day8.txt', 'r')
 Lines = file1.readlines()
-
 intrstruction = [*Lines[0].strip('\n')]
-# print(intrstruction)
-
 mapp = {}
 for i in range(2,len(Lines)):
     Lines[i] = Lines[i].strip('\n').replace(' ','')
     mapp[Lines[i][:3]] = {'L': Lines[i][5:8],'R': Lines[i][9:12]}
-    #mapp.append({'Position':Lines[i][:3],'L': Lines[i][5:8],'R': Lines[i][9:12]})
-
-####### Part 1 ####################
 steps = 0
 prev_position = 'AAA'
 found = False
@@ -41,13 +37,9 @@ mapp = {}
 for i in range(2,len(Lines)):
     Lines[i] = Lines[i].strip('\n').replace(' ','')
     mapp[Lines[i][:3]] = {'L': Lines[i][5:8],'R': Lines[i][9:12]}
-    #mapp.append({'Position':Lines[i][:3],'L': Lines[i][5:8],'R': Lines[i][9:12]})
 
 starts = [x for x in mapp.keys() if x.endswith('A')]
-print(starts)
-
 step = []
-
 for s in starts:
     print(s)
     prev_position = s
