@@ -9,4 +9,5 @@ Solutions For the Advent Of Code Challenge
 6. Day 6 ( Part 1: Brute Force, Part 2: Maths)
 7. Day 7 ( Part 1: Solved, Part 2: Partially Solved)
 8. Day 8 ( Part 1: Solved, Part 2: Solved Using Least Common Multiple)
-9. Day 9 
+9. Day 9
+10. Day 10 (Work in Progress!!)
